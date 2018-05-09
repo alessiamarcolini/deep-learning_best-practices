@@ -49,3 +49,7 @@ From the [docs](https://pytorch.org/docs/0.3.1/optim.html#torch.optim.lr_schedul
 ```python
 class torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max, eta_min=0, last_epoch=-1)
 ```
+
+## Additional Resources
+
+Lesson 2 of [Practical Deep Learning for Coders](http://course.fast.ai/): [video](https://www.youtube.com/watch?v=JNxcznsrRb8&feature=youtu.be&t=2291)
