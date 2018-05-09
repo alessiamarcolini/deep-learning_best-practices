@@ -41,3 +41,11 @@ keras.callbacks.LearningRateScheduler(schedule=self._cosine_anneal_schedule)
 ```
 
 Full example at [Keras Contrib Repo](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/callbacks/snapshot.py) (showing all code for Snapshot Ensamble and Cyclic Cosine Annealing).
+
+### PyTorch
+
+From the [docs](https://pytorch.org/docs/0.3.1/optim.html#torch.optim.lr_scheduler.CosineAnnealingLR), supported by default since PyTorch 0.3.1:
+
+```python
+class torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max, eta_min=0, last_epoch=-1)
+```
