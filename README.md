@@ -1,6 +1,6 @@
 # Deep Learning Best Practices
 
-Following the work made by Nishant Gaurav (fast.ai student) at http://forums.fast.ai/t/30-best-practices/12344 I'm sharing some Deep Learning best practices I learned following as an International Fellow the courses [Practical Deep Learning for Coders](http://course.fast.ai/) and [Cutting Edge Deep Learning for Coders](http://course.fast.ai/part2.html) (2018 version) taken by Jeremy Howard and Rachel Thomas at fast.ai.
+Following the work made by [Nishant Gaurav](https://www.facebook.com/nishantgrv) (fast.ai student) at http://forums.fast.ai/t/30-best-practices/12344 I'm sharing some Deep Learning best practices I learned following as an International Fellow the courses [Practical Deep Learning for Coders](http://course.fast.ai/) and [Cutting Edge Deep Learning for Coders](http://course.fast.ai/part2.html) (2018 version) taken by Jeremy Howard and Rachel Thomas at fast.ai.
 
 ## Dataset
 - [ ] Do as much of your work as you can on a small sample of the data
