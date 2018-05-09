@@ -16,7 +16,7 @@ Following the work made by Nishant Gaurav (fast.ai student) at http://forums.fas
 ## Learning Rate
 - [ ] Use learning rate finder and select a learning where convergence of loss is steep. Do not select the biggest possible learning rate. 
 - [ ] When using a pretrained model on some dataset like imagenet, you need to use different learning rates when you are using that model for any new dataset. The initial layers need a smaller learning rate, and the deeper layers need a comparatively larger learning rate. When the new dataset is similar to original dataset (e.g. cats vs dogs is similar to imagenet but iceberg satellite image is not) the weights have a ratio of 10. But when using the imagenet of satellite model the successive weights should have a ratio of 3. 
-- [ ] Cosine annealing: This now supported by default in pytorch 0.3.18 
+- [x] Cosine annealing: This now supported by default in pytorch 0.3.18 
 - [ ] SGD with restarts: 2 setups work very well. 
 - [ ] To tackle Gradient Explosion we use identity matrix for intialization. Also allows higher learning rate.
 
